@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Velocicars</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../icon/ms-icon-70x70.png">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap"rel="stylesheet">
+</head>
+<body class="cad">
+
+        <nav>
+           
+        
+                
+            <a href="../index.html"><img src="../img/automoveis.png" class="logo" alt=""></a>
+    
+            
+            <ul class ="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/coment.html">Comentario</a></li>
+            </ul>
+        </nav>
+        <div class="dados">
+            <ul>
+                <li id="cadastro"><a href="cadastro.html">Cadastro</a></li>
+                
+            </ul>
+        </div>
+        <main id="cads" class="tela-login">
+
+            <div class="wrapper">
+                <!-- Formulário -->
+                <form action="" id="formulario" method="POST" name="formulario">
+                  <legend>
+                    Cadastro Conscessionaria
+                  </legend>
+                  <div class="input-group">
+                    <label for="nome">Nome:</label>
+                    <input
+                      type="text"
+                      id="nome"
+                      name="nome"
+                      placeholder="Insira seu nome"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input
+                      type="text"
+                      id="sobrenome"
+                      placeholder="Insira seu sobrenome"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Insira seu e-mail" />
+                  </div>
+                  <div class="input-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" placeholder="Insira a senha" />
+                  </div>
+                  <div class="colunas">
+                    <div class="input-group">
+                      <label for="telefone">Telefone:</label>
+                      <input
+                        type="text"
+                        id="telefone"
+                        placeholder="Insira seu Telefone"
+                      />
+                    </div>
+                    <div class="input-group">
+                      <label for="cep">CEP:</label>
+                      <input type="text" id="cep" placeholder="Insira seu CEP" />
+                    </div>
+                  </div>
+                  <div class="colunas">
+                    <div class="input-group">
+                      <label for="sexo">Sexo:</label>
+                      <select name="sexo" id="sexo">
+                        <option value="">informar...</option>
+                        <option value="m">Masculino</option>
+                        <option value="f">Feminino</option>
+                        <option value="x">Não informar</option>
+                      </select>
+                    </div>
+                    <div class="input-group">
+                      <label for="newsletter">Newsletter</label>
+                      <input type="checkbox" id="newsletter" />
+                      <small>Desejo receber ofertas de novos veiculos</small>
+                    </div>
+                  </div>
+                  <div class="footer">
+                    <button type="button" class="botao" onclick="validar()">
+                      Enviar
+                    </button>
+                  </div>
+                </form>
+          
+                <script>
+                  /* Função Validar */
+                  function validar() {
+                    // pegando o valor do nome pelos names
+                    var nome = document.getElementById("nome");
+                    var sobrenome = document.getElementById("sobrenome");
+                    var email = document.getElementById("email");
+                    var senha = document.getElementById("senha");
+                    var telefone = document.getElementById("telefone");
+                    var cep = document.getElementById("cep");
+                    var sexo = document.getElementById("sexo");
+                    var newsletter = document.getElementById("newsletter").checked;
+          
+                    // verificar se o nome está vazio
+                    if (nome.value == "") {
+                      alert("Nome não informado");
+          
+                      // Deixa o input com o focus
+                      nome.focus();
+                      // retorna a função e não olha as outras linhas
+                      return;
+                    }
+                    if (sobrenome.value == "") {
+                      alert("Sobrenome não informado");
+                      sobrenome.focus();
+                      return;
+                    }
+                    if (email.value == "") {
+                      alert("E-mail não informado");
+                      email.focus();
+                      return;
+                    }
+                    if (senha.value == "") {
+                      alert("Senha não informada");
+                      senha.focus();
+                      return;
+                    }
+                    if (telefone.value == "") {
+                      alert("Telefone não informado");
+                      telefone.focus();
+                      return;
+                    }
+                    if (cep.value == "") {
+                      alert("CEP não informado");
+                      cep.focus();
+                      return;
+                    }
+                    if (sexo.value == "") {
+                      alert("CEP não informado");
+                      sexo.focus();
+                      return;
+                    }
+                    alert("Formulário enviado!");
+                    // envia o formulário
+                    //formulario.submit();
+                  }
+                </script>
+            
+    
+        </main>
+       
+    
+        <footer>
+            <div class="rodape" id="rodape">
+                <div class="info"> 
+                    <h2>CONTATO</h2>
+                    <address>
+                        
+                    <p>Endereço: Rua dos Caetés, 741 - 5º e 6º andares - Centro, Belo Horizonte - MG, 30120-082</p>
+                    <P>Funcionamento: Segunda - Sábado das 08:00-22:00</P>
+                    <p>Email: velocicars@contato.com</p>
+                    <p>Telefone: (31) 99394-1723 - 3675-2341</p>
+                    
+                    </address>
+    
+                </div>
+                <div class="icons">
+                    <a target="_blank"href="https://pt-br.facebook.com/"><img src="../icon/face.png"></a>
+                    <a target="_blank" href="https://www.instagram.com/?hl=pt-br"><img src="../icon/Instagram.png"></a>
+                    <a target="_blank" href="https://br.linkedin.com/"><img src="../icon/linkedin.png"></a>
+                    <a target="_blank" href="https://twitter.com/login?lang=pt"><img src="../icon/twitter.png"></a>
+    
+                </div>
+               
+               
+                
+                
+            
+            
+            </div>
+            <div class="copy">
+                <p>&copy; Feito por Igor Emanuel 2021</p>
+            </div>
+    
+        </footer>
+        
+    </body>
+    </html>
+
+
+    
+</body>
+</html>

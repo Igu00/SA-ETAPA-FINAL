@@ -1,0 +1,550 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+body {
+    height:100%;
+    
+ }
+.home1{
+    height:3000px;
+}
+
+.menu a{
+    color: black;
+}
+
+nav{
+    background: rgb(247, 247, 247);
+    height:120px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.tela-login{
+    width:25%;
+    
+    margin:30px auto;
+    background-color: rgba(0, 0, 0, 0.932);
+    border-radius: 10px;
+    
+}
+
+.tela-login h2{
+    font-size: 1.8rem;
+    color:white;
+    margin: 20px;
+    padding-top:20px;
+}
+
+.input{
+    margin:20px;
+    color:white;
+}
+.btn-login{
+   
+    padding:5px;
+    width:50%;
+    margin-left: 25%;
+    margin-bottom:20px;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+    background-color:rgb(116, 112, 112);  
+}
+.btn-login:hover{
+    background-color:rgb(80, 76, 76); 
+    transition:.5s; 
+    cursor:pointer;
+}
+
+.logo{
+    width: 57%;
+    padding: 0px 100px 4px 4px;
+    margin:35px;
+}
+label a{
+    color:white;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin: 50px 20px;
+
+}
+nav ul li ul li{
+   
+    margin: 0px;
+    padding:4px;
+
+}
+nav ul li ul li:hover{
+    background: lightgray;
+    transition: .5s;
+}
+nav ul li ul li a:hover{
+    background: none;
+}
+
+nav ul li a{
+    color:white;
+    font-size:1.2rem;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+nav ul li a.active, nav ul li a:hover{
+    background: gray;
+    transition: .5s;
+}
+
+ul ul{
+    position: absolute;
+    min-width:120px;
+    margin:10px 0px;
+    display:none;
+   
+}
+html,
+:root {
+  height: 100%;
+}
+input {
+  box-sizing: border-box;
+  outline: none;
+}
+#cads main{
+  margin: 0;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#formulario {
+  width: 500px;
+  min-height: 400px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 30px;
+}
+#formulario legend {
+  color: #9b0000;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 22px;
+}
+.input-group {
+  margin: 10px 0;
+}
+.input-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #393939;
+  cursor: pointer;
+}
+
+.input-group input:not([type="checkbox"]) {
+  background: #dedddd;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  padding: 8px 10px;
+  display: block;
+  width: 100%;
+}
+.input-group input:focus {
+  border-color: #190074;
+}
+
+.input-group input::placeholder {
+  color: #686868;
+  font-weight: 300;
+}
+.colunas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.colunas .input-group {
+  width: 48%;
+}
+.footer {
+  text-align: center;
+}
+.botao {
+  background: #0e008b;
+  border-radius: 2px;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.botao:hover {
+  background: #0f0063;
+}
+ul ul li{
+    display: block;
+    background-color: gray;
+}
+
+ul li:hover ul{
+    
+    display: block;
+}
+.dados{
+    background-color: rgb(13, 0, 87);
+    font-size: 1rem;
+     
+}
+.dados ul{
+    margin-left:80%;
+    display:flex;
+    text-align: center;
+    
+   
+}
+.dados ul li{
+    
+    border-radius: 10px;
+    padding:15px;
+    margin:10px;
+   
+
+}
+
+.tela-login{
+    background-color: rgb(13, 0, 87);
+
+}
+#cadastro{
+    background-color:rgba(206, 14, 0, 0.884);
+}
+#cadastro a{
+    font-weight: bold;
+    color:black;
+}
+#cadastro:hover{
+    background-color:rgba(129, 0, 0, 0.925);
+    transition: .5s;
+
+}
+
+.walpaper{
+    width: 90%;
+    margin: 60px auto;
+    height: 700px;
+    object-fit:cover;
+   
+    background-image: url(img/concs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+   
+} 
+
+
+.ti{
+    margin: 0px auto;
+    text-align: center;
+}
+.ti h2{
+
+    color: #05005e;
+    font-weight: bold;
+    margin:20px;
+    font-size:3rem;
+}
+.ti p{
+    
+    color: #05005e;
+    margin:20px;
+    font-size:1.7rem;
+}
+.pieces{
+    width: 90%;
+    margin: 100px auto;
+    height: 2000px;
+    background-color: rgba(5, 0, 80, 0.911);
+    color:white;
+    border-radius: 10px;
+    /* display: grid;
+     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "t t"
+                "m m"
+                "b b"
+                "f f"; */ 
+    
+}
+.pieces h1{
+    padding: 20px;
+    
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.piece{
+    display: flex;
+    align-items:center; 
+    justify-content: space-evenly;     
+    margin-top:150px; 
+}
+.piece h3, .piece p, .piece a{
+    text-align: center;
+    width: 425px;
+    
+}
+.piece h3{
+    margin:10px;
+    font-size: 30px;
+}
+.piece p{
+    margin:20px;
+    font-size: 1.2rem;
+    margin-bottom:30px;
+}
+.piece img{
+    
+    background-color: white;
+    padding: 20px;
+    border-radius: 55px;
+}
+.piece img:hover{
+    background-color: rgba(126, 126, 126, 0.993);;
+    transition: 0.5s;
+}
+.btn-ver{
+    text-align: center;
+    color: white;
+    background-color: rgba(119, 115, 115, 0.938);
+    padding: 15px;
+    font-size:20px;
+    font-weight: bold;
+    margin-left: 34%;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+.btn-ver:hover{
+    background-color: rgba(56, 54, 54, 0.986);
+    transition: 0.5s;
+}
+.text{
+    background-color: #000000;
+    border-radius: 10px;
+    height: 320px;
+}
+.cars{
+    
+    width: 100%;
+    margin: 200px auto;
+    height: 700px
+ 
+}
+.car{
+    
+    margin-top: 10px;
+    background-color: rgba(99, 90, 90, 0.815);
+    border-radius: 10px;
+}
+.car img{
+    width:41%;
+    height: 300px;
+    margin: 30px 50px;
+    border-radius: 10px;
+    
+}
+.promocao{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.btn-login{
+    background-color:rgba(206, 14, 0, 0.884);
+}
+
+.btn-login:hover{
+    background-color:rgba(129, 0, 0, 0.925);
+    transition: .5s;
+
+}
+
+.rodape{
+    
+    height: 300px;
+    background-color: rgb(13, 0, 87);
+    margin-top: auto;
+    COLOR:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+.info p{
+    font-size: 20px;
+}
+address{
+    text-align: justify;
+    width: 600px;
+}
+.icons img{
+    margin:10px;
+}
+.copy{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
+
+.about{
+    width: 50%;
+    height: 800px;
+    margin: 0px auto;
+    display:block;
+    text-align: center;
+   
+}
+.about img{
+    width: 95%;
+}
+
+#titulo-about{
+    font-size: 3rem;
+    margin-top: 50px;   
+
+    text-align: center;
+    
+}
+.about p{
+    font-size: 1rem;
+    text-align: justify;
+    margin:20px;
+    
+}
+
+
+
+.container-carros{
+    margin: 50px auto;
+    width: 90%;
+    display:grid;
+    grid-template-columns: 0.3fr 2fr 2fr;
+    grid-template-areas: "nav img conteudo";
+
+}
+.nav lateral{
+    grid-area: nav;
+    
+    
+   
+}
+.nav-lateral ul li{
+    border: 1px solid #000;
+    background-color: rgba(146, 140, 140, 0.795);
+    
+    
+}
+.nav-lateral ul li a{
+    font-size: 1.4rem;
+    color: rgb(87, 1, 87);
+
+    
+
+}
+
+.nav-lateral ul li:hover{
+    background-color: rgba(83, 79, 79, 0.795);
+    transition:0.5s;
+}
+.escolhido {
+    background-color: rgba(0, 0, 0, 0.795);
+    padding:auto;
+  
+    
+   
+}
+
+.img-carros{
+    grid-area: img;
+    margin-left: 20px;
+}
+.img-carros img{
+    width:100%;
+    display: flex;
+
+}
+.conteudo-carro{
+    border: 1px solid black;
+    margin-left:20px;
+    text-align: center;
+}
+.conteudo-carro p{
+    margin:10px 5px;
+    text-align:justify;
+}
+
+
+#titoC{
+    font-size: 2rem;
+    text-align:center;
+    margin-top: 20px;
+}
+#txtC{
+    margin: 0px auto;
+    text-align: center;
+    color: #640000;
+    margin:20px;
+    font-size:1.7rem;
+}
+
+.forms{
+    margin-right: 47.75% ;
+    margin-left: 20% ;
+    margin-bottom: 6.25%;
+    align-items: center;
+    border: none;
+}
+
+.faq-text{
+    display:flex;
+    justify-content: space-evenly;
+    margin:20px auto;
+    width:800px;
+    text-align: center;
+}
+@media (max-width:1230px){
+    nav{
+        background: #000;
+        height:180px;
+        width: 100%;
+        display: block;
+        text-align:center;
+        
+        
+    }
+    nav ul{
+        border-top: 1px solid white;
+        margin:0px;
+    }
+
+}
